@@ -14,7 +14,7 @@ Android/Java
 Layout
 * XML
 
-Design Patterns
+# Design Patterns
 * Singleton: Historical management
 * Adapter: Tie RecyclerView and Partidas List interfaces
 
