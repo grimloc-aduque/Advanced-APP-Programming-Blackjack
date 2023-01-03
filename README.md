@@ -15,8 +15,8 @@ Layout
 * XML
 
 # Design Patterns
-* Singleton: Historical management
-* Adapter: Tie RecyclerView and Partidas List interfaces
+* Singleton: To manage the Historical across the APP
+* Adapter: To link the RecyclerView and Partidas List interfaces
 
 # Blackjack Game
 
