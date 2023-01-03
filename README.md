@@ -20,8 +20,12 @@ Layout
 
 # Blackjack Game
 
-## Main Activity
-<img src="https://github.com/grimloc-aduque/Android-Blackjack/blob/master/git_images/main_activity.png" style="width:250px;"/>
-
-## Historical Activity
-<img src="https://github.com/grimloc-aduque/Android-Blackjack/blob/master/git_images/historico_activity.png" style="width:250px;"/>
+## Main and Hisrocial Activities
+<div class="row">
+  <div class="column">
+    <img src="https://github.com/grimloc-aduque/Android-Blackjack/blob/master/git_images/main_activity.png" style="width:250px;"/>
+  </div>
+  <div class="column">
+    <img src="https://github.com/grimloc-aduque/Android-Blackjack/blob/master/git_images/historico_activity.png" style="width:250px;"/>
+  </div>
+</div>
