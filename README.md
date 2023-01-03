@@ -14,6 +14,10 @@ Android/Java
 Layout
 * XML
 
+Design Patterns
+* Singleton: Historical management
+* Adapter: Tie RecyclerView and Partidas List interfaces
+
 # Blackjack Game
 
 ## Main Activity
