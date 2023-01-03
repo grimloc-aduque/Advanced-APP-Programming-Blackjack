@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/cardsDealer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/cardDealer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardDealer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardDealer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardDealer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/cardDealer5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardDealer6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardDealer7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Dealer" />
+        </TableRow>
+
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_below="@id/cardsDealer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNuevoJuego"
+            android:onClick="onNuevoJuego"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:visibility="visible"
+            android:text="Nuevo Juego" />
+
+        <Button
+            android:id="@+id/btnHistorico"
+            android:onClick="onHistorico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:visibility="visible"
+            android:text="Historico" />
+
+        <Button
+            android:id="@+id/btnRetirarse"
+            android:onClick="onRetirarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:visibility="gone"
+            android:text="Retirarse" />
+
+        <Button
+            android:id="@+id/btnPedirCarta"
+            android:onClick="onPlayerPideCarta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:visibility="gone"
+            android:text="Pedir Carta" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_below="@id/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:text="Turno: Player" />
+
+
+
+    <TableLayout
+        android:id="@+id/cardsPlayer"
+        android:layout_below="@id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/cardPlayer1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardPlayer2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardPlayer3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardPlayer4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:id="@+id/cardPlayer5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardPlayer6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+            <ImageView
+                android:id="@+id/cardPlayer7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="75dp"
+                app:srcCompat="@drawable/card_default" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Player" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</RelativeLayout>
