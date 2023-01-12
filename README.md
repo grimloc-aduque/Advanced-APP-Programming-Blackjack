@@ -1,4 +1,4 @@
-# Advanced-APP-Programming-Blackjack
+# Android-Blackjack
 Android APP of the game Blackjack
 
 # Technologies
