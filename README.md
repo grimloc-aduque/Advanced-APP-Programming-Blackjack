@@ -21,4 +21,4 @@ Layout
 # Blackjack App Activities
 |Main Activity|Historical Activity|
 |:-:|:-:|
-|<img src="https://github.com/grimloc-aduque/Android-Blackjack/blob/master/git_images/main_activity.png" style="width:250px;"/>|<img src="https://github.com/grimloc-aduque/Android-Blackjack/blob/master/git_images/historico_activity.png" style="width:250px;"/>|
+|<img src="https://github.com/grimloc-aduque/Android-Blackjack/blob/master/git_images/main_activity.png" style="width:250px;"/>|<img src="https://github.com/grimloc-aduque/Android-Blackjack/blob/master/git_images/historico_activity.png" style="width:250px;"/>
